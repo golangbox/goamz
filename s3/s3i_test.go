@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/goamz/goamz/aws"
-	"github.com/goamz/goamz/s3"
-	"github.com/goamz/goamz/testutil"
+	"github.com/golangbox/goamz/aws"
+	"github.com/golangbox/goamz/s3"
+	"github.com/golangbox/goamz/testutil"
 	. "gopkg.in/check.v1"
 )
 

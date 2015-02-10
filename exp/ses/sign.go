@@ -6,8 +6,9 @@ import (
 	"crypto/sha256"
 	"encoding/base64"
 	"fmt"
-	"github.com/goamz/goamz/aws"
 	"time"
+
+	"github.com/golangbox/goamz/aws"
 )
 
 const (

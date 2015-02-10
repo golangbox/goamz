@@ -4,9 +4,10 @@ import (
 	"bytes"
 	"encoding/xml"
 	"fmt"
-	"github.com/goamz/goamz/aws"
 	"io"
 	"net/http"
+
+	"github.com/golangbox/goamz/aws"
 )
 
 type Route53 struct {

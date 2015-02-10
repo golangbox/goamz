@@ -4,10 +4,11 @@ import (
 	"crypto/hmac"
 	"crypto/sha1"
 	"encoding/base64"
-	"github.com/goamz/goamz/aws"
 	"log"
 	"sort"
 	"strings"
+
+	"github.com/golangbox/goamz/aws"
 )
 
 var b64 = base64.StdEncoding

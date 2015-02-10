@@ -6,9 +6,9 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/goamz/goamz/aws"
-	"github.com/goamz/goamz/exp/ses"
-	"github.com/goamz/goamz/testutil"
+	"github.com/golangbox/goamz/aws"
+	"github.com/golangbox/goamz/exp/ses"
+	"github.com/golangbox/goamz/testutil"
 	. "gopkg.in/check.v1"
 )
 

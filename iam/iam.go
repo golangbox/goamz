@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/goamz/goamz/aws"
+	"github.com/golangbox/goamz/aws"
 )
 
 // The IAM type encapsulates operations operations with the IAM endpoint.

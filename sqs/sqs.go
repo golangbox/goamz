@@ -23,7 +23,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/goamz/goamz/aws"
+	"github.com/golangbox/goamz/aws"
 )
 
 const API_VERSION = "2012-11-05"

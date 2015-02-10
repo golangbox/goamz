@@ -3,12 +3,13 @@ package dynamodb
 import simplejson "github.com/bitly/go-simplejson"
 import (
 	"errors"
-	"github.com/goamz/goamz/aws"
 	"io/ioutil"
 	"log"
 	"net/http"
 	"strings"
 	"time"
+
+	"github.com/golangbox/goamz/aws"
 )
 
 type Server struct {

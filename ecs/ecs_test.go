@@ -5,8 +5,8 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"github.com/goamz/goamz/aws"
-	"github.com/goamz/goamz/testutil"
+	"github.com/golangbox/goamz/aws"
+	"github.com/golangbox/goamz/testutil"
 )
 
 func Test(t *testing.T) {

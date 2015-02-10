@@ -1,8 +1,8 @@
 package elb_test
 
 import (
-	"github.com/goamz/goamz/aws"
-	"github.com/goamz/goamz/elb"
+	"github.com/golangbox/goamz/aws"
+	"github.com/golangbox/goamz/elb"
 	. "gopkg.in/check.v1"
 )
 

@@ -3,12 +3,13 @@ package ses
 
 import (
 	"encoding/xml"
-	"github.com/goamz/goamz/aws"
 	"io/ioutil"
 	"net/http"
 	"net/url"
 	"strconv"
 	"strings"
+
+	"github.com/golangbox/goamz/aws"
 )
 
 type SES struct {

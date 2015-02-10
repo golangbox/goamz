@@ -2,13 +2,14 @@ package aws_test
 
 import (
 	"fmt"
-	"github.com/goamz/goamz/aws"
 	"io/ioutil"
 	"net/http"
 	"net/http/httptest"
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/golangbox/goamz/aws"
 )
 
 // Retrieve the response from handler using aws.RetryingClient
